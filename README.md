@@ -31,7 +31,7 @@ CMD ["npm","start"]
 
 # Projet Docker Docker-Compose
 
-version: "3.7"
+```version: "3.7"
 services:
   mongodb:
     image: "mongo"
@@ -55,3 +55,4 @@ services:
       - backend
 volumes: 
   data:
+```
